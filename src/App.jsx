@@ -1,28 +1,38 @@
+import { useEffect, useState } from 'react';
+import Header from './components/Header';
 import './App.css';
 
 function App() {
+  const [data, setData] = useState({});
+
+  useEffect(() => {
+    async function fetchData() {
+      const result = await fetch('/api/data.json', {
+        headers: { 'content-type': 'application/json' },
+      });
+      const json = await result.json();
+      setData(json.data.today);
+      console.log('data', data);
+    }
+    fetchData();
+
+  //   fetch('/api/data.json', { headers: { 'content-type': 'application/json' } })
+  //     .then((res) => res.json())
+  //     .then((data) => console.log(data));
+  }, []);
+
+
+  const HeadersDataComponent = () => {
+    if (!data) {
+      return <p>...Loading </p>;
+    }
+    return <Header date={data.displayDate} editor={data.editor} />;
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            First commit in Codespaces. 😇
-          </a>
-        </p>
-      </header>
-    </div>
+    <>
+      <HeadersDataComponent />
+    </>
   );
 }
 
