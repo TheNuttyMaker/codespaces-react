@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Header from './components/Header';
 import './App.css';
+import Honeycomb from './components/Honeycomb';
 
 function App() {
   const [data, setData] = useState({});
@@ -21,12 +22,18 @@ function App() {
   //     .then((data) => console.log(data));
   }, []);
 
+  if(!data) {
+    return <p>...Loading </p>;
+  }
+
 
   const HeadersDataComponent = () => {
-    if (!data) {
-      return <p>...Loading </p>;
-    }
-    return <Header date={data.displayDate} editor={data.editor} />;
+    return (
+      <>
+      <Header date={data.displayDate} editor={data.editor} />
+      <Honeycomb centerLetter={data.centerLetter} outerLetters={data.outerLetters} validLetters={data.validLetters} />
+      </>
+    );
   };
 
   return (
