@@ -18,7 +18,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            First commit in Codespaces. 😇
           </a>
         </p>
       </header>
