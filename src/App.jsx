@@ -17,12 +17,12 @@ function App() {
     }
     fetchData();
 
-  //   fetch('/api/data.json', { headers: { 'content-type': 'application/json' } })
-  //     .then((res) => res.json())
-  //     .then((data) => console.log(data));
+    //   fetch('/api/data.json', { headers: { 'content-type': 'application/json' } })
+    //     .then((res) => res.json())
+    //     .then((data) => console.log(data));
   }, []);
 
-  if(!data) {
+  if (!data) {
     return <p>...Loading </p>;
   }
 
@@ -30,8 +30,14 @@ function App() {
   const HeadersDataComponent = () => {
     return (
       <>
-      <Header date={data.displayDate} editor={data.editor} />
-      <Honeycomb centerLetter={data.centerLetter} outerLetters={data.outerLetters} validLetters={data.validLetters} />
+        <Header editor={data.editor} />
+        <section className="container">
+          <div className="inputs">
+            <div className="center">
+              <Honeycomb centerLetter={data.centerLetter} outerLetters={data.outerLetters} validLetters={data.validLetters} />
+            </div>
+          </div>
+        </section>
       </>
     );
   };

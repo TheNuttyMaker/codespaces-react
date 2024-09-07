@@ -11,21 +11,3 @@ body {
   margin-block-start: 0.25rem;
   margin-block-end: 0.25rem;
 }
-
-.container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.inputs {
-  width: 80vw;
-  max-width: 290px;
-}
-
-.center {
-  width: 90%;
-  margin: 25px auto;
-}
-
