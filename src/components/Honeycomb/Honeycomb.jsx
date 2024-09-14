@@ -4,30 +4,44 @@ import { useState } from 'react';
 
 import Letter from "../Letter";
 
-const OuterLetters = ({ outerLetters }) => {
-    if (!outerLetters || outerLetters.length === 0) {
+const OuterLetters = ({ outerLetters, onAdd: handleLetterClick }) => {
+    if (outerLetters?.length === 0) {
         return 'Outer Letters of Hexagon aren not available';
     }
+
     return (
-        outerLetters.map((letter, i) => <Letter key={i} letter={letter} isCenter={false} />)
+        outerLetters.map((letter, i) => <Letter key={i} letter={letter} isCenter={false} onAdd={handleLetterClick} />)
     )
 }
 const Honeycomb = ({ centerLetter, outerLetters, validLetters }) => {
-    const [shuffledOuterLetters, setShuffledOuterLetters] = useState([...outerLetters]);
+    const [shuffledOuterLetters, setShuffledOuterLetters] = useState([...outerLetters || []]);
 
     const handleShuffleClick = () => {
         setShuffledOuterLetters([...shuffledOuterLetters].sort(() => Math.random() - 0.5));
     }
 
+    const handleDeleteClick = () => {
+        console.log('delete');
+    };
+
+    const handleEnterClick = () => {
+        console.log('enter');
+    };
+
+    const handleLetterClick = (letter) => {
+        console.log('letter', letter);
+    };
 
     return (
         <>
             <article className="honeycomb">
-                <Letter letter={centerLetter} isCenter={true} />
-                <OuterLetters outerLetters={shuffledOuterLetters} />
+                <Letter letter={centerLetter} isCenter={true} onAdd={handleLetterClick} />
+                <OuterLetters outerLetters={shuffledOuterLetters} onAdd={handleLetterClick} />
             </article>
             <section className='buttons'>
+                <button className='button' onClick={handleDeleteClick}>Delete</button>
                 <button className='button' onClick={handleShuffleClick}>Shuffle</button>
+                <button className='button' onClick={handleEnterClick}>Enter</button>
             </section>
         </>
     );
