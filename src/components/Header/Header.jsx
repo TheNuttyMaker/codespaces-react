@@ -12,4 +12,3 @@ const Header = ({ editor }) => {
 };
   
   export default Header;
-  

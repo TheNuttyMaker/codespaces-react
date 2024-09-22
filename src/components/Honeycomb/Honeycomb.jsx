@@ -13,24 +13,12 @@ const OuterLetters = ({ outerLetters, onAdd: handleLetterClick }) => {
         outerLetters.map((letter, i) => <Letter key={i} letter={letter} isCenter={false} onAdd={handleLetterClick} />)
     )
 }
-const Honeycomb = ({ centerLetter, outerLetters, validLetters }) => {
+const Honeycomb = ({ centerLetter, outerLetters, validLetters, onAdd: handleLetterClick, onDelete: handleDeleteClick, onEnter: handleEnterClick }) => {
     const [shuffledOuterLetters, setShuffledOuterLetters] = useState([...outerLetters || []]);
 
     const handleShuffleClick = () => {
         setShuffledOuterLetters([...shuffledOuterLetters].sort(() => Math.random() - 0.5));
     }
-
-    const handleDeleteClick = () => {
-        console.log('delete');
-    };
-
-    const handleEnterClick = () => {
-        console.log('enter');
-    };
-
-    const handleLetterClick = (letter) => {
-        console.log('letter', letter);
-    };
 
     return (
         <>
