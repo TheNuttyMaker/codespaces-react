@@ -20,4 +20,122 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Testing 123
+Risk and Controls Assessment
+
+I am pleased to provide feedback on [Manager's Name]'s exceptional demonstration of risk management and adherence to our firm's compliance standards during our collaboration on the XXXXXXXXXX project.
+
+Key Strengths:
+
+1. Proactive Risk Identification: Consistently identified and escalated potential risks associated with integrating Yodlee FastLink, ensuring timely mitigation strategies.
+
+2. Compliance Excellence: Demonstrated thorough understanding of regulatory requirements and industry standards, ensuring adherence to policies, laws, and regulations.
+
+3. Effective Collaboration: Fostered strong relationships with control function colleagues, ensuring seamless communication and issue resolution.
+
+4. Strategic Leadership: Successfully navigated complex dependencies with multiple teams, identifying and engaging key stakeholders to ensure project success.
+
+Specific Examples:
+
+- Proactively engaged InfoSec team to address potential data security concerns, ensuring compliance with firm's data protection policies.
+
+- Coordinated with Compliance team to develop comprehensive risk assessments and mitigation plans for external account aggregation.
+
+- Effectively managed conflicts and dependencies with external partners, demonstrating exceptional negotiation and problem-solving skills.
+
+Adherence to Policies and Regulations:
+
+[Manager's Name] consistently acted within the letter and spirit of applicable policies, regulations, and laws. Their commitment to ethical conduct and risk management best practices is commendable.
+
+Recommendations for Future Development:
+
+1. Continue to stay updated on evolving regulatory requirements and industry standards.
+2. Share expertise and knowledge with team members to enhance overall risk awareness.
+
+Overall Rating: 5 (Exceptional)
+
+Conclusion:
+
+[Manager's Name] has demonstrated exceptional leadership and expertise in risk management and compliance. Their proactive approach and collaborative spirit ensured the successful delivery of the XXXXXXXXXX project while maintaining the highest standards of risk management and regulatory adherence.
+
+Signature: [Your Signature]
+Date: [Current Date]
+
+This feedback highlights your manager's strengths in risk management, compliance, and leadership, providing specific examples and recommendations for future development.
+
+
+"[Manager's Name] exemplifies our Firm's values, fostering an inclusive and diverse work environment where excellence thrives. Throughout our collaboration on the XXXXXXXXXX project, they demonstrated exceptional leadership, taking accountability for promoting respect, empathy, and open communication. By actively seeking input from diverse stakeholders and valuing individual perspectives, [Manager's Name] created a safe space for constructive debate and innovation. Their commitment to excellence, integrity, and teamwork serves as a shining example for our organization's culture. Notably, their ability to effectively navigate complex conflicts and dependencies with multiple teams showcased their exceptional interpersonal skills and dedication to maintaining positive working relationships. As a role model, [Manager's Name] inspires others to embody our Firm's values, contributing significantly to a workplace culture that celebrates differences and promotes collective success."
+
+Effective
+"[Manager's Name] has consistently demonstrated exceptional leadership and managerial effectiveness, expertly guiding our team through complex projects like the XXXXXXXXXX initiative. Their ability to clarify goals, prioritize tasks, and allocate resources efficiently ensured timely delivery and outstanding results. By fostering a collaborative environment, encouraging open communication, and providing constructive feedback, [Manager's Name] empowered team members to take ownership and excel in their roles. Their proactive approach to risk management, strategic problem-solving, and stakeholder engagement further ensured seamless execution. Through effective delegation, coaching, and development opportunities, [Manager's Name] has enhanced the team's skills and expertise, driving collective growth and success. Overall, their leadership has significantly impacted our team's performance, productivity, and job satisfaction, making them an exemplary model of managerial excellence."
+
+"[Manager's Name] is an exceptional leader who effectively guided our team through complex projects like XXXXXXXXXX. They excel in clarifying goals, prioritizing tasks, and fostering collaboration. Their proactive approach to risk management, strategic problem-solving, and stakeholder engagement ensured seamless execution. Through effective delegation and coaching, they've enhanced team skills and driven collective growth, significantly impacting performance, productivity, and job satisfaction."
+
+"[Manager's Name] is an outstanding leader who delivered exceptional results through effective project management, collaboration, and talent development. Their proactive approach and strategic problem-solving ensured success in complex initiatives like XXXXXXXXXX."
+
+You:
+
+Here's an example of self-feedback for the year-end review:
+
+Summary:
+
+This year, I made significant contributions to the XXXXXXXXXX squad as a developer, delivering critical features and enhancements to the external accounts page. Despite tight timelines, I successfully developed and deployed high-quality solutions, impacting over 1 million users.
+
+Key Accomplishments:
+
+1. Developed External Accounts Page: Utilized Yodlee FastLink to enable users to aggregate external accounts, performing actions like edit and delete.
+
+2. Enhanced User Experience:
+    - Implemented expand/collapse functionality for grid rows.
+    - Ensured mobile responsiveness for optimal usability.
+
+3. Reusable Components: Created and exported multiple components, including:
+    - Global Connection Management Hub.
+    - Accounts Aggregation Component.
+
+4. Deeplinking Support: Integrated support for direct external account addition from marketing emails.
+
+Skills Demonstrated:
+
+- Technical expertise in frontend and backend development.
+- Effective collaboration with UI and backend team members.
+- Strong problem-solving and time management skills.
+- Adaptability in meeting tight deadlines.
+
+Challenges Overcome:
+
+- Integrated Yodlee FastLink within aggressive timelines.
+- Ensured seamless functionality across various devices and browsers.
+
+Goals for Next Year:
+
+1. Expand expertise in emerging technologies.
+2. Take on more complex features and technical leadership roles.
+3. Continue delivering high-quality solutions with improved efficiency.
+
+Self-Rating: 4.5/5 (Exceeds Expectations)
+
+Recommendations for Growth:
+
+1. Training on advanced technologies (e.g., machine learning, cloud computing).
+2. Mentorship opportunities to develop leadership skills.
+3. Collaborative projects with cross-functional teams.
+
+
+Inclusive growth
+"I actively promote and contribute to an inclusive and diverse work environment by fostering a culture of respect, empathy, and open communication. Recently, I addressed a sensitive situation where a colleague's behavior was impacting teamwork. After unsuccessful attempts to resolve the issue directly, I discovered that the behavior was related to personal harassment. Recognizing the severity, I promptly escalated the matter to our Dev Lead and Manager. Their swift intervention ensured a resolution, maintaining a safe and respectful workplace. This experience reinforced the importance of proactive allyship and supportive leadership in promoting diversity, equity, and inclusion. Through such initiatives, I strive to create an environment where everyone feels valued, heard, and empowered to succeed."
+
+RISK
+
+"During PR reviews, I identified a potential risk in a merged code change from another team's repository. The implementation lacked proper feature flag protection, exposing the unfinished feature to all users instead of the intended pilot group. I promptly alerted the developer, who reverted the changes before production deployment, preventing unintended feature exposure and avoiding an unnecessary hotfix. This proactive escalation demonstrated my attention to detail, risk awareness, and collaborative approach to ensuring secure and controlled deployments."
+
+Or, if you'd like a shorter version:
+
+"While reviewing PRs, I spotted a merged code change lacking feature flag protection, risking unintended exposure. I swiftly alerted the developer, who reverted the changes pre-deployment, preventing unnecessary hotfixes and ensuring controlled feature rollouts."
+
+Development
+
+To further enhance my impact, I'm focusing on expanding my skill set and expertise in key areas. Firstly, I aim to develop my soft skills, particularly influence and negotiation, to effectively communicate technical ideas and drive consensus in meetings. This will enable me to collaborate more effectively with cross-functional teams and stakeholders. Additionally, I'm eager to broaden my technical expertise by diving deeper into backend development, specifically Java, to become proficient in full-stack development. By acquiring these skills, I'll increase my versatility, tackle complex projects, and contribute more comprehensively to our team's success.
+
+Or, if you'd like a shorter version:
+
+I'm committed to professional growth, focusing on two key areas: soft skills and technical expertise. I aim to develop influence and negotiation skills to effectively communicate in meetings and drive consensus. Additionally, I'll explore Java backend development to become proficient in full-stack development, enhancing my versatility and contributions to the team.
